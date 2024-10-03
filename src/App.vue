@@ -1,7 +1,7 @@
 <script setup>
-import logo from "@/assets/frog-logo.svg";
+import Navbar from "./components/Navbar.vue";
 </script>
 
 <template>
-  <img :src="logo" class="w-10" />
+  <Navbar />
 </template>
