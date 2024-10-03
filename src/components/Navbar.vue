@@ -3,7 +3,9 @@ import logo from "@/assets/frog-logo.svg";
 </script>
 
 <template>
-  <nav class="flex px-5 py-2 justify-between border-b border-dark">
+  <nav
+    class="bg-light bg-opacity-60 backdrop-blur-lg px-5 py-2 flex justify-between border-b border-dark border-opacity-25 fixed top-0 right-0 left-0 shadow-lg"
+  >
     <a href="#" class="flex gap-5 items-center">
       <img :src="logo" class="w-10" />
       <span
