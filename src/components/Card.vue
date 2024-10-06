@@ -4,10 +4,6 @@ defineProps({
     type: String,
     required: true,
   },
-  alt: {
-    type: String,
-    required: true,
-  },
   title: {
     type: String,
     required: true,
@@ -24,11 +20,13 @@ defineProps({
 </script>
 
 <template>
-  <div class="flex flex-col items-center gap-3 px-3 py-5">
+  <div
+    class="bg-secondary rounded-lg shadow-md max-w-sm flex flex-col items-center gap-3 px-3 py-5"
+  >
     <img
       :src="image"
-      :alt="alt"
-      class="h-44 w-44 object-cover rounded-lg shadow-md"
+      :alt="title"
+      class="h-44 w-44 object-cover rounded-lg shadow-lg"
     />
     <h3 class="text-dark font-bold text-xl">{{ title }}</h3>
     <p class="text-dark text-center">{{ text }}</p>

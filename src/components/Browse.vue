@@ -1,11 +1,50 @@
 <script setup>
 import Card from "./Card.vue";
-import frog from "../assets/frogs/blue-frog.jpg";
+import blueFrog from "../assets/frogs/blue-frog.jpg";
+import greenFrog from "../assets/frogs/green-frog.jpg";
+import orangeFrog from "../assets/frogs/orange-frog.jpg";
+import redFrog from "../assets/frogs/red-frog.jpg";
+import whiteFrog from "../assets/frogs/white-frog.jpg";
+import yellowFrog from "../assets/frogs/yellow-frog.jpg";
 
-const alt = "This is a frog";
-const title = "THIS IS A BLUE FROG";
-const text = "THIS BLUE FROG IS BLUE";
-const price = 999.99;
+const frogsData = [
+  {
+    image: blueFrog,
+    title: "Leptopelis Caeruleus",
+    text: "This elusive blue leaf frog prefers high-altitude tropical forests, where it hides among leaves. Its soft croaks are a familiar nighttime sound in the forest.",
+    price: 190,
+  },
+  {
+    image: greenFrog,
+    title: "Rana Viridisca",
+    text: "A bright green river-dwelling frog, often found near fast-flowing streams. Its smooth skin and excellent camouflage make it a master at avoiding predators.",
+    price: 310,
+  },
+  {
+    image: orangeFrog,
+    title: "Hyla Aurantiaca",
+    text: "A vibrant orange tree frog found in the rainforest canopy. Known for its striking color and ability to blend with sunlit leaves, it uses its large toe pads to cling to branches.",
+    price: 245,
+  },
+  {
+    image: redFrog,
+    title: "Rana Rubripura",
+    text: "This striking red frog inhabits riverbanks and streams in tropical rainforests. Its smooth, vivid red skin helps it stand out during mating season, while it blends seamlessly into its red clay habitat for protection.",
+    price: 275,
+  },
+  {
+    image: whiteFrog,
+    title: "Leptodactylus Alba",
+    text: "A small, cream-colored frog with silky skin, commonly found in leaf litter on the rainforest floor. Its pale hue provides excellent camouflage against sandy or light-colored soil, making it difficult for predators to spot.",
+    price: 165,
+  },
+  {
+    image: yellowFrog,
+    title: "Hyla Flavoluna",
+    text: "A bright yellow tree frog often seen at night in the rainforest canopy. Its smooth, luminous skin reflects the moonlight, giving it a glowing appearance as it calls for mates high in the treetops.",
+    price: 360,
+  },
+];
 </script>
 
 <template>
@@ -21,13 +60,15 @@ const price = 999.99;
       <input type="text" class="grow" placeholder="Search for a frog..." />
       <v-icon name="hi-search" fill="#002A19" />
     </label>
-    <Card
-      class="bg-secondary rounded-lg shadow-md"
-      :image="frog"
-      :alt="alt"
-      :title="title"
-      :text="text"
-      :price="price"
-    />
+    <div class="flex flex-wrap justify-center gap-5">
+      <Card
+        v-for="(frog, index) in frogsData"
+        :key="index"
+        :image="frog.image"
+        :title="frog.title"
+        :text="frog.text"
+        :price="frog.price"
+      />
+    </div>
   </section>
 </template>
