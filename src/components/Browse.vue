@@ -12,7 +12,7 @@
       class="input input-bordered flex items-center gap-2 rounded-full border-dark"
     >
       <input type="text" class="grow" placeholder="Search for a frog..." />
-      <v-icon name="io-search-outline" />
+      <v-icon name="hi-search" fill="#002A19" />
     </label>
   </section>
 </template>

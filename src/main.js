@@ -3,9 +3,9 @@ import "./style.css";
 import App from "./App.vue";
 
 import { OhVueIcon, addIcons } from "oh-vue-icons";
-import { IoSearchOutline } from "oh-vue-icons/icons";
+import { HiSearch } from "oh-vue-icons/icons";
 
-addIcons(IoSearchOutline);
+addIcons(HiSearch);
 
 const app = createApp(App);
 app.component("v-icon", OhVueIcon);
