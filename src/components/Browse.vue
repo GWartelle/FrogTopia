@@ -48,27 +48,36 @@ const frogsData = [
 </script>
 
 <template>
-  <section class="flex flex-col items-center gap-10 py-10">
-    <h2
-      class="font-extrabold text-3xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text"
-    >
-      Browse Frogs
-    </h2>
-    <label
-      class="input input-bordered flex items-center gap-2 rounded-full border-dark"
-    >
-      <input type="text" class="grow" placeholder="Search for a frog..." />
-      <v-icon name="hi-search" fill="#002A19" />
-    </label>
-    <div class="flex flex-wrap justify-center gap-5">
-      <Card
-        v-for="(frog, index) in frogsData"
-        :key="index"
-        :image="frog.image"
-        :title="frog.title"
-        :text="frog.text"
-        :price="frog.price"
-      />
+  <section class="flex justify-center">
+    <div class="max-w-4xl flex flex-col items-center gap-10 py-10">
+      <h2
+        class="font-extrabold text-3xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text"
+      >
+        Browse Frogs
+      </h2>
+      <label
+        class="input input-bordered flex items-center gap-2 rounded-full border-dark"
+      >
+        <input type="text" class="grow" placeholder="Search for a frog..." />
+        <v-icon name="hi-search" fill="#002A19" />
+      </label>
+      <div class="flex flex-wrap justify-center gap-5">
+        <Card
+          v-for="(frog, index) in frogsData"
+          :key="index"
+          :image="frog.image"
+          :title="frog.title"
+          :text="frog.text"
+          :price="frog.price"
+        />
+      </div>
+      <div class="join shadow-md">
+        <button class="join-item btn btn-disabled">«</button>
+        <button class="join-item btn btn-active">1</button>
+        <button class="join-item btn">2</button>
+        <button class="join-item btn">3</button>
+        <button class="join-item btn">»</button>
+      </div>
     </div>
   </section>
 </template>

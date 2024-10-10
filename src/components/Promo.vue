@@ -4,7 +4,7 @@ import vector2 from "@/assets/vector-background-2.svg";
 </script>
 
 <template>
-  <section class="h-96 bg-secondary flex justify-center">
+  <section class="h-96 bg-secondary flex justify-center shadow-md">
     <div class="flex gap-12 items-center">
       <div class="flex flex-col items-center gap-6 max-w-96">
         <h2
