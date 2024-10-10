@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <section class="h-auto bg-secondary flex justify-center shadow-md">
+  <section class="h-auto mb-10 bg-secondary flex justify-center shadow-md">
     <div class="max-w-4xl flex flex-col items-center gap-5 py-10">
       <h2
         class="text-center font-extrabold text-3xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text"

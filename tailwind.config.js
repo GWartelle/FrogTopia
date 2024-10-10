@@ -8,7 +8,7 @@ export default {
         secondary: "#C5E4D7",
         accent: "#DEB841",
         dark: "#002A19",
-        light: "#F4F4F6",
+        light: "#FFF",
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
