@@ -23,9 +23,13 @@ import vector1 from "@/assets/vector-background-1.svg";
         <img
           :src="frog1"
           alt="beautidul blue frog"
-          class="absolute right-14 bottom-14"
+          class="absolute right-14 bottom-14 z-50 filter drop-shadow-2xl"
         />
-        <img :src="vector1" alt="vector background" class="" />
+        <img
+          :src="vector1"
+          alt="vector background"
+          class="filter drop-shadow-2xl"
+        />
       </div>
     </div>
   </section>
