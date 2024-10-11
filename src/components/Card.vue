@@ -33,12 +33,12 @@ defineProps({
     <span class="text-dark font-bold text-2xl">${{ price }}</span>
     <div class="flex gap-5">
       <button
-        class="btn border-none bg-primary text-light font-bold text-lg shadow-md"
+        class="btn border-none bg-primary text-light hover:bg-accent font-bold text-lg shadow-md"
       >
         Read more
       </button>
       <button
-        class="btn border-none bg-primary text-light font-bold text-lg shadow-md"
+        class="btn border-none bg-primary text-light hover:bg-accent font-bold text-lg shadow-md"
       >
         Add to cart
       </button>

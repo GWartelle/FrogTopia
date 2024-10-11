@@ -13,7 +13,7 @@ import vector1 from "@/assets/vector-background-1.svg";
           FULFILL YOUR DREAM<br />GET A FROG
         </h1>
         <button
-          class="btn border-none bg-gradient-to-r from-primary to-accent text-light font-bold text-xl shadow-md"
+          class="btn btn-lg px-10 border-none bg-primary text-light hover:bg-accent font-bold text-xl shadow-md"
         >
           Browse Frogs
         </button>

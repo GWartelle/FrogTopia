@@ -6,6 +6,7 @@ import logo from "@/assets/frog-logo.svg";
   <header
     class="bg-light bg-opacity-60 backdrop-blur-lg px-5 py-2 flex justify-between border-b border-dark border-opacity-25 fixed top-0 right-0 left-0 shadow-lg z-50"
   >
+    <!-- Logo section -->
     <a href="#" class="flex gap-5 items-center">
       <img :src="logo" class="w-10" />
       <span
@@ -13,18 +14,48 @@ import logo from "@/assets/frog-logo.svg";
         >FrogTopia</span
       >
     </a>
-    <nav class="flex gap-10 items-center">
+
+    <!-- Desktop navigation links -->
+    <nav class="hidden lg:flex gap-10 items-center">
       <a href="#" class="font-bold text-xl"> Home </a>
       <a href="#" class="font-bold text-xl"> Deal </a>
       <a href="#" class="font-bold text-xl"> Browse </a>
       <a href="#" class="font-bold text-xl"> Reviews </a>
       <a href="#">
         <button
-          class="btn border-none bg-gradient-to-r from-primary to-accent text-light font-bold text-xl shadow-md"
+          class="btn border-none bg-primary text-light hover:bg-accent font-bold text-xl shadow-md px-6"
         >
           Login
         </button>
       </a>
     </nav>
+
+    <!-- Mobile navigation dropdown -->
+    <div class="dropdown dropdown-end lg:hidden">
+      <button
+        tabindex="0"
+        class="btn border-none bg-gradient-to-r from-primary to-accent text-light font-bold text-xl shadow-md"
+      >
+        Menu
+      </button>
+      <ul
+        tabindex="0"
+        class="dropdown-content menu bg-base-100 rounded-box z-50 w-52 p-2 shadow"
+      >
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Deal</a></li>
+        <li><a href="#">Browse</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li>
+          <a href="#">
+            <button
+              class="btn border-none bg-primary text-light hover:bg-accent font-bold text-xl shadow-md w-full"
+            >
+              Login
+            </button>
+          </a>
+        </li>
+      </ul>
+    </div>
   </header>
 </template>

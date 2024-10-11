@@ -17,7 +17,7 @@ import vector2 from "@/assets/vector-background-2.svg";
           Don't miss out on this beautiful companion 🐸
         </p>
         <button
-          class="btn border-none bg-gradient-to-r from-primary to-accent text-light font-bold text-xl shadow-md"
+          class="btn border-none bg-primary text-light hover:bg-accent font-bold text-xl shadow-md"
         >
           Get it for -20%
         </button>
