@@ -32,20 +32,17 @@ import logo from "@/assets/frog-logo.svg";
 
     <!-- Mobile navigation dropdown -->
     <div class="dropdown dropdown-end lg:hidden">
-      <button
-        tabindex="0"
-        class="btn border-none bg-gradient-to-r from-primary to-accent text-light font-bold text-xl shadow-md"
-      >
-        Menu
+      <button tabindex="0">
+        <v-icon name="hi-solid-menu" scale="2" fill="#002A19" />
       </button>
       <ul
         tabindex="0"
         class="dropdown-content menu bg-base-100 rounded-box z-50 w-52 p-2 shadow"
       >
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Deal</a></li>
-        <li><a href="#">Browse</a></li>
-        <li><a href="#">Reviews</a></li>
+        <li><a href="#" class="font-bold text-xl">Home</a></li>
+        <li><a href="#" class="font-bold text-xl">Deal</a></li>
+        <li><a href="#" class="font-bold text-xl">Browse</a></li>
+        <li><a href="#" class="font-bold text-xl">Reviews</a></li>
         <li>
           <a href="#">
             <button
