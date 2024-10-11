@@ -4,7 +4,7 @@ import vector1 from "@/assets/vector-background-1.svg";
 </script>
 
 <template>
-  <section class="pt-24 h-screen flex justify-center">
+  <section id="hero" class="pt-24 h-screen flex justify-center">
     <div class="flex gap-12 items-center">
       <div class="flex flex-col justify-center items-center gap-10">
         <h1

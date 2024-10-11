@@ -17,10 +17,10 @@ import logo from "@/assets/frog-logo.svg";
 
     <!-- Desktop navigation links -->
     <nav class="hidden lg:flex gap-10 items-center">
-      <a href="#" class="font-bold text-xl"> Home </a>
-      <a href="#" class="font-bold text-xl"> Deal </a>
-      <a href="#" class="font-bold text-xl"> Browse </a>
-      <a href="#" class="font-bold text-xl"> Reviews </a>
+      <a href="#hero" class="font-bold text-xl"> Home </a>
+      <a href="#promo" class="font-bold text-xl"> Deal </a>
+      <a href="#browse" class="font-bold text-xl"> Browse </a>
+      <a href="#reviews" class="font-bold text-xl"> Reviews </a>
       <a href="#">
         <button
           class="btn border-none bg-primary text-light hover:bg-accent font-bold text-xl shadow-md px-6"
@@ -39,10 +39,10 @@ import logo from "@/assets/frog-logo.svg";
         tabindex="0"
         class="dropdown-content menu bg-base-100 rounded-box z-50 w-52 p-2 shadow"
       >
-        <li><a href="#" class="font-bold text-xl">Home</a></li>
-        <li><a href="#" class="font-bold text-xl">Deal</a></li>
-        <li><a href="#" class="font-bold text-xl">Browse</a></li>
-        <li><a href="#" class="font-bold text-xl">Reviews</a></li>
+        <li><a href="#hero" class="font-bold text-xl">Home</a></li>
+        <li><a href="#promo" class="font-bold text-xl">Deal</a></li>
+        <li><a href="#browse" class="font-bold text-xl">Browse</a></li>
+        <li><a href="#reviews" class="font-bold text-xl">Reviews</a></li>
         <li>
           <a href="#">
             <button

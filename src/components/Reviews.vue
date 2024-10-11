@@ -1,7 +1,10 @@
 <script setup></script>
 
 <template>
-  <section class="h-auto mb-10 bg-secondary flex justify-center shadow-md">
+  <section
+    id="reviews"
+    class="h-auto mb-10 bg-secondary flex justify-center shadow-md"
+  >
     <div class="max-w-4xl flex flex-col items-center gap-5 py-10">
       <h2
         class="text-center font-extrabold text-3xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text"
@@ -43,11 +46,7 @@
             class="radio radio-sm checked:bg-dark"
           />
         </div>
-        <progress
-          class="progress w-11/12"
-          value="40"
-          max="100"
-        ></progress>
+        <progress class="progress w-11/12" value="40" max="100"></progress>
       </div>
     </div>
   </section>

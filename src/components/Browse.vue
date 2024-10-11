@@ -48,7 +48,7 @@ const frogsData = [
 </script>
 
 <template>
-  <section class="flex justify-center">
+  <section id="browse" class="flex justify-center">
     <div class="max-w-4xl flex flex-col items-center gap-10 py-10">
       <h2
         class="font-extrabold text-3xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text"
