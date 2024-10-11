@@ -4,27 +4,28 @@ import vector1 from "@/assets/vector-background-1.svg";
 </script>
 
 <template>
-  <section id="hero" class="pt-24 h-screen flex justify-center">
-    <div class="flex gap-12 items-center">
-      <div class="flex flex-col justify-center items-center gap-10">
+  <section id="hero" class="lg:h-screen py-20 flex justify-center">
+    <div class="flex gap-28 items-center flex-col lg:flex-row">
+      <div class="flex flex-col justify-center items-center gap-24">
         <h1
-          class="font-extrabold text-3xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text"
+          class="font-extrabold text-5xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text text-center lg:text-left"
         >
           FULFILL YOUR DREAM<br />GET A FROG
         </h1>
-        <button
+        <a
+          href="#browse"
           class="btn btn-lg px-10 border-none bg-primary text-light hover:bg-accent font-bold text-xl shadow-md"
         >
           Browse Frogs
-        </button>
+        </a>
       </div>
       <div class="relative">
         <img
           :src="frog1"
           alt="beautidul blue frog"
-          class="w-96 absolute right-14 bottom-14"
+          class="absolute right-14 bottom-14"
         />
-        <img :src="vector1" alt="vector background" class="w-96" />
+        <img :src="vector1" alt="vector background" class="" />
       </div>
     </div>
   </section>

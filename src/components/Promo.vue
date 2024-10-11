@@ -4,18 +4,15 @@ import vector2 from "@/assets/vector-background-2.svg";
 </script>
 
 <template>
-  <section
-    id="promo"
-    class="h-auto py-24 bg-secondary flex justify-center shadow-md"
-  >
-    <div class="flex gap-12 items-center">
-      <div class="flex flex-col items-center gap-6 max-w-96">
+  <section id="promo" class="py-20 bg-secondary flex justify-center shadow-md">
+    <div class="flex gap-20 items-center flex-col lg:flex-row">
+      <div class="flex flex-col items-center gap-10 max-w-96">
         <h2
-          class="font-extrabold text-3xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text"
+          class="font-extrabold text-4xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text"
         >
           Frog of the month
         </h2>
-        <p class="text-center font-bold text-xl">
+        <p class="text-center font-bold text-xl px-5">
           The Lilaeana Purpurea won this month competition ! <br />
           Don't miss out on this beautiful companion 🐸
         </p>
@@ -29,7 +26,7 @@ import vector2 from "@/assets/vector-background-2.svg";
         <img
           :src="frog2"
           alt="gentle purple frog"
-          class="absolute h-72 left-20 bottom-1"
+          class="absolute h-72 w-72 left-20 bottom-0"
         />
         <img :src="vector2" alt="vector backaground" class="h-64" />
       </div>

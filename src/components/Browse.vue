@@ -49,9 +49,9 @@ const frogsData = [
 
 <template>
   <section id="browse" class="flex justify-center">
-    <div class="max-w-4xl flex flex-col items-center gap-10 py-10">
+    <div class="max-w-5xl flex flex-col items-center gap-20 py-20">
       <h2
-        class="font-extrabold text-3xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text"
+        class="font-extrabold text-4xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text"
       >
         Browse Frogs
       </h2>
@@ -61,7 +61,7 @@ const frogsData = [
         <input type="text" class="grow" placeholder="Search for a frog..." />
         <v-icon name="hi-search" fill="#002A19" />
       </label>
-      <div class="flex flex-wrap justify-center gap-5">
+      <div class="flex flex-wrap justify-center gap-20">
         <Card
           v-for="(frog, index) in frogsData"
           :key="index"

@@ -5,9 +5,9 @@
     id="reviews"
     class="h-auto mb-10 bg-secondary flex justify-center shadow-md"
   >
-    <div class="max-w-4xl flex flex-col items-center gap-5 py-10">
+    <div class="max-w-4xl flex flex-col items-center gap-5 py-10 px-5">
       <h2
-        class="text-center font-extrabold text-3xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text"
+        class="text-center font-extrabold text-4xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text"
       >
         Thinking about getting a frog? <br />
         Let our happy customers convince you!

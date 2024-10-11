@@ -21,7 +21,7 @@ defineProps({
 
 <template>
   <div
-    class="bg-secondary rounded-lg shadow-md max-w-sm flex flex-col items-center gap-3 px-3 py-5"
+    class="bg-secondary rounded-lg shadow-md max-w-sm flex flex-col items-center gap-5 px-3 py-5 mx-5"
   >
     <img
       :src="image"
