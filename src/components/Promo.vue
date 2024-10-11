@@ -26,7 +26,7 @@ import vector2 from "@/assets/vector-background-2.svg";
         <img
           :src="frog2"
           alt="gentle purple frog"
-          class="absolute h-72 w-72 left-20 bottom-0 z-50 filter drop-shadow-2xl"
+          class="absolute h-72 w-72 left-20 bottom-0 z-40 filter drop-shadow-2xl"
         />
         <img
           :src="vector2"
