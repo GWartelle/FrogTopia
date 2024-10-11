@@ -4,10 +4,10 @@ import logo from "@/assets/frog-logo.svg";
 
 <template>
   <header
-    class="bg-light bg-opacity-60 backdrop-blur-lg px-5 py-2 flex justify-between border-b border-dark border-opacity-25 fixed top-0 right-0 left-0 shadow-lg z-50"
+    class="bg-light bg-opacity-60 backdrop-blur-lg px-5 py-2 flex justify-between border-b border-dark border-opacity-25 sticky top-0 shadow-lg z-50"
   >
     <!-- Logo section -->
-    <a href="#" class="flex gap-5 items-center">
+    <a href="#hero" class="flex gap-5 items-center">
       <img :src="logo" class="w-10" />
       <span
         class="font-extrabold text-3xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text"
